@@ -24,7 +24,7 @@ jobs:
       
       - name: setup env
         run: |
-          echo "VERSION=$(echo $(date '+%Y-%m-%d'))" >> $GITHUB_ENV
+          echo "VERSION=$(echo $(date '+%Y-%m-%d'))"
           echo "Version: $VERSION"
       
       - name: Manage Version
